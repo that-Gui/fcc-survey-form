@@ -1,0 +1,144 @@
+
+body{
+  background: #00c3ff73;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7)), url(https://www.latercera.com/resizer/MIaXJA8LvPyk72NGTlyXa0pEwTk=/900x600/smart/arc-anglerfish-arc2-prod-copesa.s3.amazonaws.com/public/MNF56E5C45FQPFTYLOB4SCK4UA.jpg);
+  background-position: center;
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  line-height: 1.3rem;
+  font-weight: 300;
+}
+
+header{
+  text-align: center;
+}
+
+.container{
+  margin: auto;
+  background-color: rgba(1, 6, 77, 0.342);
+  width: 40%;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+form{
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+fieldset{
+  
+  margin: 8px;
+  padding: 8px;
+  border: none;
+}
+
+input[type=text]{
+width: 100%;
+padding: 8px 8px;
+margin: 8px auto;
+display: block;
+border: 1px solid #ccc;
+border-radius: 8px;
+box-sizing: border-box;
+}
+
+select{
+width: 100%;
+padding: 8px 8px;
+margin: 8px auto;
+display: block;
+border: 1px solid #ccc;
+border-radius: 8px;
+box-sizing: border-box;
+}
+
+input[type=number]{
+width: 100%;
+padding: 8px 8px;
+margin: 8px auto;
+display: block;
+border: 1px solid #ccc;
+border-radius: 8px;
+box-sizing: border-box;
+}
+
+input[type=email]{
+width: 100%;
+padding: 8px 8px;
+margin: 8px auto;
+display: block;
+border: 1px solid #ccc;
+border-radius: 8px;
+box-sizing: border-box;
+}
+
+textarea{
+width: 100%;
+padding: 8px 8px;
+margin: 8px auto;
+display: block;
+border: 1px solid #ccc;
+border-radius: 8px;
+box-sizing: border-box;
+}
+
+#title{
+font-size: 3em;
+}
+
+#description{
+font-size: 1em;
+}
+
+button{
+width: 100%;
+height: 2.5em;
+background-color: #006411;
+color: #fff;
+text-decoration: none;
+border: none;
+text-align: center;
+font-weight: bold;
+font-size: 1.1em;
+border-radius: 8px;
+}
+
+button:hover{
+background-color: #fff;
+color: #006411;
+}
+
+.rad{
+display:flex;
+flex-direction: row;
+flex-wrap: nowrap;
+}
+
+@media (max-width: 680px) {
+.container {
+  margin: auto;
+  width: 80%;
+}
+}
+
+@media (max-width: 680px) {
+   #title {
+    width: 80%;
+    margin-bottom: 24px;
+    margin-top: 24px;
+    padding: 24px;
+    text-align: center; 
+    font-size: 24px;
+    padding: auto;
+}
+}
+@media (max-width: 680px) {
+#description {
+  margin: auto;
+  width: 80%;
+}
+}
